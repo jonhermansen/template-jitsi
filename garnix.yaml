@@ -3,3 +3,7 @@ servers:
     deployment:
       type: on-branch
       branch: main
+  - configuration: jitsi
+    deployment:
+      type: on-branch
+      branch: evie-test
