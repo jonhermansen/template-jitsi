@@ -2,12 +2,12 @@
 
 # TODO: Change these variables to whatever works for you
 let # This lets you log in via SSH
-    sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIIVpNqdbM7uE1xkKoXztoaAtKtDHoqHS3DrzxYKsDgxa jkarni@garnix.io";
+    sshKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPOkOLUoiP7w3Ys3K7/WXUQmotXlLuQMYFHY0iuUsmBx nixos@nixos";
     # This should be based on your repo. In particular, it should be:
     #    jitsi.<BRANCH>.<REPONAME>.<GITHUB ORG/USER>.garnix.me
     # It can also be a custom domain. In that case, set up a CNAME to the above
     # domain.
-    host = "jitsi.main.template-jitsi.garnix-io.garnix.me";
+    host = "jitsi.main.template-jitsi.jonhermansen.garnix.me";
 in {
   # This sets up networking and filesystems in a way that works with garnix hosting
   garnix.server.enable = true;
